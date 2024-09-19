@@ -11,31 +11,46 @@ public class Main {
     public static int[][] generateMatrix(int n) {
         int[][] matrix = new int[n][n];
         int number = 0;
-        int lenght = matrix.length;
+        int length = matrix.length;
         int i = 0, j = 0, temp;
+        int a = 0, b = length - 1;
+        while (number < n * n) {
+            // Заполнение верхней строки
+            while (j < length && matrix[i][j] == 0) {
+                matrix[i][j] = ++number;
+                j++;
+            }
+            i++;
+            j--;
 
-        while(j < lenght - 1){
-            matrix[i][j] = ++number;
+            // Заполнение правого столбца
+            while (i < length && matrix[i][j] == 0) {
+                matrix[i][j] = ++number;
+                i++;
+            }
+            i--;
+            j--;
+
+            // Заполнение нижней строки
+            while (j >= 0 && matrix[i][j] == 0) {
+                matrix[i][j] = ++number;
+                j--;
+            }
+            i--;
+            j++;
+
+            // Заполнение левого столбца
+            while (i >= 0 && matrix[i][j] == 0) {
+                matrix[i][j] = ++number;
+                i--;
+            }
+            i++;
             j++;
         }
-        while(i < lenght - 1){
-            matrix[i][j] = ++number;
-            i++;
-        }
-        while(j > 0){
-            matrix[i][j] = ++number;
-            j--;
-        }
-        while(i > 0){
-            matrix[i][j] = ++number;
-            i--;
-        }
-        i++;
-        j++;
         show(matrix);
         return matrix;
     }
     public static void main(String[] args) {
-        System.out.println(generateMatrix(4));
+        System.out.println(generateMatrix(5));
     }
 }
