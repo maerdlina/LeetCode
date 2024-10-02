@@ -1,26 +1,27 @@
 import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Map;
 
 public class Main {
     public static int[] arrayRankTransform(int[] arr) {
         if(arr.length!=0){
-            int min = arr[0];
-            int[] copyArr = arr;
-            Arrays.sort(copyArr);
-            for(int i = 1; i < arr.length; i++){
-                if(arr[i] < min) min = arr[i];
+            int[] sortedArr = arr.clone();
+            Arrays.sort(sortedArr);
+
+            Map<Integer, Integer> rankMap = new HashMap<>();
+            int rank = 1;
+
+            for(int num: sortedArr){
+                if(!rankMap.containsKey(num)) rankMap.put(num, rank++);
             }
+
             for(int i = 0; i < arr.length; i++){
-                arr[i] = arr[i] / min;
+                arr[i] = rankMap.get(arr[i]);
             }
         }
         return arr;
     }
     public static void main(String[] args) {
-        int[] arr = {37,12,28,9,100,56,80,5,12};
-        arr = arrayRankTransform(arr);
-
-        for(int i = 0; i < arr.length; i++){
-            System.out.print(arr[i] + ", ");
-        }
+        System.out.println(Arrays.toString(arrayRankTransform(new int[]{40, 10, 20, 30})));
     }
 }
