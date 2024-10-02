@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Easy/1331. Rank Transform of an Array/1331. Rank Transform of an Array.iml" filepath="$PROJECT_DIR$/Easy/1331. Rank Transform of an Array/1331. Rank Transform of an Array.iml" />
       <module fileurl="file://$PROJECT_DIR$/Easy/2022. Convert 1D Arrayt Into 2D Array/2022. Convert 1D Arrayt Into 2D Array.iml" filepath="$PROJECT_DIR$/Easy/2022. Convert 1D Arrayt Into 2D Array/2022. Convert 1D Arrayt Into 2D Array.iml" />
       <module fileurl="file://$PROJECT_DIR$/Easy/225. Implement Stack using Queues/225. Implement Stack using Queues.iml" filepath="$PROJECT_DIR$/Easy/225. Implement Stack using Queues/225. Implement Stack using Queues.iml" />
       <module fileurl="file://$PROJECT_DIR$/Easy/232. Implement Queue using Stacks/232. Implement Queue using Stacks.iml" filepath="$PROJECT_DIR$/Easy/232. Implement Queue using Stacks/232. Implement Queue using Stacks.iml" />
