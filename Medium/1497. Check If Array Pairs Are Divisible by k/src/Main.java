@@ -1,3 +1,8 @@
+import com.sun.jdi.IntegerValue;
+
+import java.lang.classfile.components.ClassPrinter;
+import java.util.*;
+
 public class Main {
     public boolean canArrange(int[] arr, int k) {
         boolean ansv = false;
@@ -9,6 +14,6 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        System.out.println(2 / 3);
+
     }
 }
