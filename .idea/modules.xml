@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Easy/1290. Convert Binary Number in a Linked List to Integer/1290. Convert Binary Number in a Linked List to Integer.iml" filepath="$PROJECT_DIR$/Easy/1290. Convert Binary Number in a Linked List to Integer/1290. Convert Binary Number in a Linked List to Integer.iml" />
       <module fileurl="file://$PROJECT_DIR$/Easy/1331. Rank Transform of an Array/1331. Rank Transform of an Array.iml" filepath="$PROJECT_DIR$/Easy/1331. Rank Transform of an Array/1331. Rank Transform of an Array.iml" />
       <module fileurl="file://$PROJECT_DIR$/Medium/1497. Check If Array Pairs Are Divisible by k/1497. Check If Array Pairs Are Divisible by k.iml" filepath="$PROJECT_DIR$/Medium/1497. Check If Array Pairs Are Divisible by k/1497. Check If Array Pairs Are Divisible by k.iml" />
       <module fileurl="file://$PROJECT_DIR$/Easy/2022. Convert 1D Arrayt Into 2D Array/2022. Convert 1D Arrayt Into 2D Array.iml" filepath="$PROJECT_DIR$/Easy/2022. Convert 1D Arrayt Into 2D Array/2022. Convert 1D Arrayt Into 2D Array.iml" />
