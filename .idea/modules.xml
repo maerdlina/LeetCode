@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Easy/35. Search Insert Position/35. Search Insert Position.iml" filepath="$PROJECT_DIR$/Easy/35. Search Insert Position/35. Search Insert Position.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Easy/58. Length of Last Word/58. Length of Last Word.iml" filepath="$PROJECT_DIR$/Easy/58. Length of Last Word/58. Length of Last Word.iml" />
       <module fileurl="file://$PROJECT_DIR$/Medium/802. Find Eventual Safe States/802. Find Eventual Safe States.iml" filepath="$PROJECT_DIR$/Medium/802. Find Eventual Safe States/802. Find Eventual Safe States.iml" />
       <module fileurl="file://$PROJECT_DIR$/Easy/94. Binary Tree Inorder Traversal/94. Binary Tree Inorder Traversal.iml" filepath="$PROJECT_DIR$/Easy/94. Binary Tree Inorder Traversal/94. Binary Tree Inorder Traversal.iml" />
       <module fileurl="file://$PROJECT_DIR$/Easy/Easy.iml" filepath="$PROJECT_DIR$/Easy/Easy.iml" />
