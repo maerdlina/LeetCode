@@ -1,18 +1,19 @@
 public class Main {
-    public int lengthOfLastWord(String s) {
-        int ansv = 0;
-        for(char i: s.toCharArray()){
-            if(i != ' '){
-                ansv++;
-            } else if(ansv != 0){
-                break;
-            }
-        }
+    public static int lengthOfLastWord(String s) {
+        int ansv = 0, length = s.length();
 
-        return ansv;
+        int endIndex = length - 1;
+        while(endIndex >= 0 && s.charAt(endIndex) == ' ')
+            endIndex--;
+
+        int startIndex = endIndex;
+        while(startIndex >= 0 && s.charAt(startIndex) != ' ') startIndex--;
+
+        return endIndex - startIndex;
     }
 
     public static void main(String[] args) {
-
+        String s = "   Hello World   ";
+        System.out.println(lengthOfLastWord(s));
     }
 }
