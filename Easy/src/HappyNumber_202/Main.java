@@ -1,6 +1,5 @@
-package happyNumber_202;
+package HappyNumber_202;
 
-import java.util.HashMap;
 import java.util.HashSet;
 
 public class Main {

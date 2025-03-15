@@ -9,7 +9,7 @@ public static int searchInsert(int[] nums, int target) {
         }
     }
     return index;
-}
+}zz
 
 public static void main(String[] args) {
     Scanner cin = new Scanner(System.in);
