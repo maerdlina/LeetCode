@@ -1,5 +1,5 @@
-//package Easy.src.yandex;
-package yandex;
+package Easy.src.yandex;
+//package yandex;
 
 public class ValidPalindrome125 {
 
