@@ -1,4 +1,4 @@
-package yandex;
+package Easy.src.yandex;
 
 import java.util.ArrayList;
 import java.util.List;

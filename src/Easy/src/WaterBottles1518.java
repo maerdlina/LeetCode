@@ -1,3 +1,5 @@
+package Easy.src;
+
 public class WaterBottles1518 {
 
     public static int numWaterBottles(int numBottles, int numExchange) {

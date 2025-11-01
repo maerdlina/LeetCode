@@ -1,3 +1,5 @@
+package Medium.src;
+
 public class WaterBottlesII3100 {
 
     public static int maxBottlesDrunk(int numBottles, int numExchange) {
